@@ -182,3 +182,20 @@ a {
     font-weight: 400;
     font-size: 16px;
 }
+
+.footer{
+    height: 230px;
+    padding-top: 170px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.footer h6{
+    width: 505px;
+    height: 80px;
+    margin-left: 470px;
+    color: #000;
+    font-family: 'Press Start 2P';  
+    font-weight: 400;
+    font-size: 16px;
+}
