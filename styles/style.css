@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background: #00A651;
     padding: 0;
@@ -92,6 +96,11 @@ a {
     font-size: 39px;
     background-color: white;
     border-radius: 11px;
+}
+
+.button:hover{
+    background-color: rgb(116, 197, 120);
+    color: #fff;
 }
 
 .blocks {
@@ -190,18 +199,24 @@ a {
 
 .footer{
     height: 230px;
-    padding-top: 100px;
     width: 100%;
     background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .footer h6{
     width: 505px;
-    height: 80px;
-    margin-left: 470px;
     color: #000;
     font-family: 'Press Start 2P';  
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+}
+
+.footer img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100px;
 }
